@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#imgPokemon {
+  width: 200px;
+  height: 200px;
+  margin-left: 25px;
+}
+
+.pokemonContainer {
+  width: 250px;
+  height: 400px;
+
+  border-radius: 10px;
+  border: 2px rgb(59, 59, 59) solid;
+}
+
+.normal{
+  background: rgb(118, 118, 118);
+  background: linear-gradient(0deg, rgba(118, 118, 118, 1) 0%, rgba(221, 221, 221, 1) 90%);
+}
+
+.textoPokemon {
+  height: 30%;
+  text-align: center;
+}
+
+.psychic{
+  background: rgb(146, 1, 117);
+  background: linear-gradient(0deg, rgb(146, 1, 117) 0%, rgb(244, 0, 195) 90%);
+}
+
+.ground{
+  background: rgb(93, 59, 0);
+  background: linear-gradient(0deg, rgb(93, 59, 0) 0%, rgb(192, 121, 0) 90%);
+}
+
+.dragon{
+  background: rgb(0, 82, 175);
+  background: linear-gradient(0deg, rgb(0, 82, 175) 0%, rgb(0, 119, 255) 90%);
+}
+
+.flying{
+  background: rgb(0, 166, 175);
+  background: linear-gradient(0deg, rgb(0, 166, 175) 0%, rgb(0, 213, 225) 90%);
+}
+
+.grass{
+  background: rgb(0, 119, 40);
+  background: linear-gradient(0deg, rgb(0, 119, 40) 0%, rgb(0, 209, 70) 90%);
+}
+
+.poison{
+  background: rgb(81, 0, 119);
+  background: linear-gradient(0deg, rgb(81, 0, 119) 0%, rgb(139, 0, 204) 90%);
+}
+
+.rock{
+  background: rgb(165, 145, 31);
+  background: linear-gradient(0deg, rgb(165, 145, 31) 0%, rgb(216, 191, 45) 90%);
+}
+
+.ghost{
+  background: rgb(97, 28, 150);
+  background: linear-gradient(0deg, rgb(97, 28, 150) 0%, rgb(149, 46, 228) 90%);
+}
+
+.dark{
+  background: rgb(37, 37, 37);
+  background: linear-gradient(0deg, rgb(37, 37, 37) 0%, rgb(82, 82, 82) 90%);
+}
+
+.fire{
+  background: rgb(171, 0, 0);
+  background: linear-gradient(0deg, rgb(171, 0, 0) 0%, rgb(255, 0, 0) 90%);
+}
+
+.water{
+  background: rgb(0, 157, 115);
+  background: linear-gradient(0deg, rgb(0, 157, 115) 0%, rgb(0, 255, 187) 90%);
+}
+
+.fairy{
+  background: rgb(186, 0, 168);
+  background: linear-gradient(0deg, rgb(186, 0, 168) 0%, rgb(255, 0, 230) 90%);
+}
+
+.steel{
+  background: rgb(108, 108, 108);
+  background: linear-gradient(0deg, rgb(108, 108, 108) 0%, rgb(150, 150, 150) 90%);
+}
+
+.bug{
+  background: rgb(12, 148, 0);
+  background: linear-gradient(0deg, rgb(12, 148, 0) 0%, rgb(21, 255, 0) 90%);
+}
+
+.fighting{
+  background: rgb(148, 62, 0);
+  background: linear-gradient(0deg, rgb(148, 62, 0) 0%, rgb(255, 106, 0) 90%);
+}
+
+.electric{
+  background: rgb(143, 133, 0);
+  background: linear-gradient(0deg, rgb(143, 133, 0) 0%, rgb(255, 238, 0) 90%);
+}
+
+.ice{
+  background: rgb(0, 95, 143);
+  background: linear-gradient(0deg, rgb(0, 95, 143) 0%, rgb(0, 170, 255) 90%);
+}
